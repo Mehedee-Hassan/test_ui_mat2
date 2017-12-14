@@ -20,7 +20,7 @@ public class MainActivity extends AppCompatActivity {
 
         toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
-
+        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
 
     }
 
@@ -44,6 +44,12 @@ public class MainActivity extends AppCompatActivity {
 
         }else if(itemId == R.id.item3_main_m){
             Toast.makeText(MainActivity.this,"item 3 clicked" , Toast.LENGTH_SHORT).show();
+
+        }else if(itemId == R.id.search_id){
+            Toast.makeText(MainActivity.this,"action search clicked" , Toast.LENGTH_SHORT).show();
+
+        }else if(itemId == R.id.shoppingcart_id){
+            Toast.makeText(MainActivity.this,"action shopping clicked" , Toast.LENGTH_SHORT).show();
 
         }
 
