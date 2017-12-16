@@ -11,12 +11,14 @@
         <item name="windowNoTitle">true</item>
     </style>
 
+<!--transparent status bar and nav bar under that-->
+    <!--<style name="AppTheme.NoActionBar">-->
+        <!--<item name="android:windowActionBar">false</item>-->
+        <!--<item name="android:windowNoTitle">true</item>-->
+        <!--<item name="android:windowDrawsSystemBarBackgrounds">true</item>-->
+        <!--<item name="android:statusBarColor">@android:color/transparent</item>-->
+    <!--</style>-->
+<!-- end of the style-->
 
-    <style name="AppTheme.NoActionBar">
-        <item name="android:windowActionBar">false</item>
-        <item name="android:windowNoTitle">true</item>
-        <item name="android:windowDrawsSystemBarBackgrounds">true</item>
-        <item name="android:statusBarColor">@android:color/transparent</item>
-    </style>
 
 </resources>
