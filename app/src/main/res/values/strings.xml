@@ -3,4 +3,15 @@
     <string name="my_image">my image</string>
     <string name="my_name">Mehedee</string>
     <string name="my_email">mehedee@email.com</string>
+    <string name="inbox">inbox</string>
+    <string name="starred">Starred</string>
+    <string name="sent_mail">Sent mail</string>
+    <string name="draft_mail">Drafts</string>
+    <string name="subheader">Sub header</string>
+    <string name="all_email">All emails</string>
+    <string name="trash">Trash</string>
+    <string name="spam">Spam</string>
+    <string name="open_string">Open</string>
+    <string name="close_string">Close</string>
+
 </resources>
